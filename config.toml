@@ -1,4 +1,33 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Chris Cocuzzo'
 theme = 'hello-friend-ng'
+
+[Params]
+    intro = true
+    headline = "Trying My First Site"
+    twitter = "https://www.twitter.com/chriscocuzzo"
+    shareTwitter = true
+
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'about'
+  title = 'about me'
+  url = '/about.html'
+  weight = -110
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'posts'
+  title = 'My Posts'
+  url = '/posts/'
+  weight = -110
+
+[[menu.main]]
+  identifier = 'substack'
+  name = 'my substack'
+  url = '/substack/'
+  weight = -110
+    

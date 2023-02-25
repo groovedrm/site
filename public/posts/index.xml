@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Chris Cocuzzo</title>
+        <link>http://example.org/posts/</link>
+        <description>Recent content in Posts on Chris Cocuzzo</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 25 Feb 2023 07:32:54 -0500</lastBuildDate>
+        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Finally a Site</title>
+            <link>http://example.org/posts/finally-a-site/</link>
+            <pubDate>Sat, 25 Feb 2023 07:32:54 -0500</pubDate>
+            
+            <guid>http://example.org/posts/finally-a-site/</guid>
+            <description>Finally, A Site I finally put together just enough time to write a site.</description>
+            <content type="html"><![CDATA[<h2 id="finally-a-site">Finally, A Site</h2>
+<p>I finally put together just enough time to write a site.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
