@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Irving Risk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1A365D;
+      --soft-white: #F8F9FA;
+      --charcoal: #333F48;
+      --teal: #3A7D7B;
+      --gold: #D4AF37;
+      --silver: #E5E5E5;
+    }
+    
+    body {
+      font-family: 'Outfit', sans-serif;  
+      margin: 0;
+      padding: 0;
+      background-color: var(--soft-white);
+      color: var(--charcoal);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      flex: 1;
+    }
+    .site-header {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--silver);
+      justify-content: space-between;
+      font-family: 'Space Mono', monospace;  
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+    .site-title h1 {
+      font-size: 44px;
+      margin: 0;
+      font-weight: 700;
+      margin-right: 40px;
+      font-family: 'Space Mono', monospace;  
+      color: var(--navy);
+      letter-spacing: -0.5px;
+    }
+    .site-nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+    .site-nav li {
+      margin-right: 30px;
+    }
+    .site-nav a {
+      text-decoration: none;
+      color: var(--charcoal);
+      font-weight: 600;
+      font-size: 18px;
+      font-family: 'Space Mono', monospace;  
+      transition: color 0.3s ease;
+    }
+    .site-nav a:hover {
+      color: var(--teal);
+    }
+    .work-with-us-button a {
+      background-color: var(--teal);
+      color: var(--soft-white);
+      padding: 10px 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      font-family: 'Space Mono', monospace;  
+    }
+    .work-with-us-button a:hover {
+      background-color: var(--navy);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      color: var(--soft-white);
+    }
+    .content {
+      padding: 30px 0;
+      font-family: 'Outfit', sans-serif;  
+    }
+    .content-section {
+      padding: 0 100px;
+      margin: 0 auto;
+      text-align: left;
+      width: 65%;
+    }
+    .content h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-family: 'Outfit', sans-serif;  
+      color: var(--navy);
+    }
+    .content h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: var(--teal);
+    }
+    .content a {
+      color: var(--teal);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+    .content a:hover {
+      border-color: var(--teal);
+    }
+    footer {
+      background-color: var(--navy);
+      padding: 40px 0;
+      border-top: 1px solid var(--silver);
+      font-family: 'Space Mono', monospace;  
+      color: var(--soft-white);
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-left, .footer-right {
+      max-width: 45%;
+    }
+    .footer-title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: var(--gold);
+    }
+    .footer-social {
+      margin: 20px 0;
+    }
+    .footer-social div {
+      margin-bottom: 10px;
+      color: var(--silver);
+    }
+    .footer-social a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: var(--soft-white);
+      transition: color 0.3s ease;
+    }
+    .footer-social a:hover {
+      color: var(--gold);
+    }
+    .footer-copyright {
+      margin-top: 20px;
+      font-size: 14px;
+      color: var(--silver);
+    }
+    .footer-links {
+      margin-top: 10px;
+    }
+    .footer-links a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: var(--soft-white);
+      transition: color 0.3s ease;
+    }
+    .footer-links a:hover {
+      color: var(--gold);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+  <div class="header-left">
+    <div class="site-title">
+      <h1>Irving Risk</h1>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/what-we-do">What We Do</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="work-with-us-button">
+    <a href="/work-with-us">Work With Us</a>
+  </div>
+</header>
+
+    <main class="content">
+      
+  <div class="content-section">
+    <h1 id="irving-risk-blog">Irving Risk Blog</h1>
+<h2 id="insights-and-perspectives-on-risk-management">Insights and Perspectives on Risk Management</h2>
+<p>Stay up to date with the latest insights, news, and updates from Irving Risk. Our blog features expert analysis, industry trends, and practical advice to help you navigate the complex world of risk management.</p>
+<p>We regularly publish articles on topics such as:</p>
+<ul>
+<li>Emerging risks and how to address them</li>
+<li>Best practices in insurance program design</li>
+<li>Risk management strategies for specific industries</li>
+<li>Regulatory updates and compliance considerations</li>
+<li>Case studies and success stories</li>
+</ul>
+<p>Check back regularly for new content, or subscribe to our newsletter to receive updates directly in your inbox.</p>
+
+  </div>
+
+    </main>
+  </div>
+  <footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <div class="footer-title">Irving Risk</div>
+      <div class="footer-social">
+        <div>Follow Us</div>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">YouTube</a>
+        <a href="#" target="_blank">Twitter</a>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2025 Irving Risk. All rights reserved.
+      </div>
+    </div>
+    <div class="footer-right">
+      <div class="footer-title">Resources</div>
+      <div class="footer-links">
+        <a href="/about">About</a>
+        <a href="/what-we-do">What We Do</a>
+        <a href="/work-with-us">Work With Us</a>
+        <a href="/blog">Blog</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
